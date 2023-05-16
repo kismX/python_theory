@@ -1,0 +1,67 @@
+# Introduction Day 4
+
+**Yesterday**
+- computers and numbers
+    - Decimal
+    - binary
+    - hexadecimal
+    - bits and Bytes
+        - Bit: 0 1
+        - Byte: 8 Bits - 10011010
+    - Binary operations: and xor ..
+
+- Conditionals
+    - if/elif/else
+    - 
+- randon Numbers
+
+
+**Today**
+- Fantasy Game character creator
+- repeating code with loops
+- Functions
+-
+
+
+
+## LOOPS
+
+- loops repeat codes
+- the simplest loop in py i think is "while" loop
+- while lop is based on conditional
+    - a kind of oike an "if"
+    - whe while runs a block of code until the condition is False
+    - letz make example (py-datei coding2)
+- Note: itś easy to accidentally make an infinite loop
+    - dont panic :) -> "ctrl + C" stop it!
+
+- the other kind of loop we will learn today a "for" loop
+- in py "for2 loops go over some kind of sequence
+    - like characters in a string
+    - like items in a list  # most commen case
+    - so what is a list?
+- lists store multiple items in a singe car
+    - items could be strings
+    - i. could be numbers
+    - lists are "indexed"
+    - indexes start from zero
+    - indexes are zero-based
+- when i say "strings are indexed"
+
+- if you want iterable numbers
+    - theres a function for that! --> see .py
+
+- when i say "ranges are indexed"
+
+- you can even have loops inside of loops!
+
+
+## FUNCTIONS ##
+- we used already: print, max, input...
+- a functions defines a block of code
+    - that you can call when you need it
+
+- functions can take in "arguments"
+    - sometimes called "parameters"
+
+- Functions can return a value
