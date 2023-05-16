@@ -43,13 +43,13 @@ print()
 
 ## to: comtinue statement
 
-# i = 1
-# while 1 <= 5:
-#     if i == 3:
-#         i += 1
-#         continue             # irgendwas stimmt hier noch nicht
-#     print(i)
-#     i += 1
+i = 1
+while i <= 5:
+    if i == 3:
+        i += 1
+        continue             # irgendwas stimmt hier noch nicht
+    print(i)
+    i += 1
 
 
 ## continue in loops:
