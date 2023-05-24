@@ -5,8 +5,8 @@
 - packing and unpacking (*args ***kwargs)
 
 # Functions
-- make it morre reasable
-- simplyfy code
+- make it more readable
+- simplify code
 - helps us to make our code DRY (Dont Repeat Yourself)
 - way to organize and reuse codes in py
 - performs specific task, and can be called multiple times
@@ -23,7 +23,7 @@ e.g.
 - ..
 2. **custom functions**
 - you create yourself
-- can be tailored to perform specoific tasks or operations
+- can be tailored to perform specific tasks or operations
 
 To **create a function** u need to follow a few basic steps:
 - use the **def** keyword to define the func
@@ -75,23 +75,23 @@ def multiply_number(a, b):
 - the interpreter assings the values 3 and 4 to the parameters a und b
 
 4. **local variable assigenment**
-- a new variable called result ois createsd and assigned the value a * b
-- this var is loccal to the func
-- this var doenst exist outside the func
+- a new variable called result is createsd and assigned the value a * b
+- this var is local to the func
+- this var doesn't exist outside the func
 
 5. **return statement**
 - return keyword is used to send the value of result back to the calling code
 
 
 **Input arguments**
-- these are arguments thar are assigned based on their position in the func call
+- these are arguments that are assigned based on their position in the func call
 - the first argument is assigned to the first par
 - the 2nd arg is assigned to the 2nd par and so on
 
 **keyword arguments**
-- these are arg thar are explicitly assigned to par
-- keyword arg allow you to specify inputs in any oder
-- can be useful when u hav func with many input par
+- these are argzments that are explicitly assigned to parameter
+- keyword args allow you to specify inputs in any other
+- can be useful when u hav func with many input parameters
 
 (bsp in .py)
 
