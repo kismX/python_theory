@@ -23,7 +23,7 @@ true ist false und flase ist true
 
 
 **XOR: !=**
-True, wenn eines der zustände False ist
+True, wenn eines der zustände unterschiedlich ist (false != true = True)
 
 
 **NAND: Not AND**
@@ -64,4 +64,11 @@ immer true wenn alle zustände entweder True oder alle zustände False sind True
 order in which operatirs and ecxpressions are evaluated in an expression
 in py the order of operator prec. is as follows (from highest to lowest):
 1. parantheses - klammern gehen vor
-2.  
+2. ecponentiation - hochzahlen gehen danach vor
+3. multiplicartion/divisoin/flor division
+4. addition and substraction (+ - )
+5. comparison operator (< > <= == !=)
+6. boolean operators (not and or) 
+
+# naming and grouping p.
+def a func that takes one or more args and returns a bool
