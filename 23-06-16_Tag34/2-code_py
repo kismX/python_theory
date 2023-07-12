@@ -1,0 +1,61 @@
+#### Hierarchical Inheritance:
+
+class Animal:
+    def eat(self):
+        print('eating')
+
+    
+class Dog(Animal):
+    def __init__(self) -> None:
+        super().eat()
+        self.bark()
+
+    def bark(self):
+        print('barking')
+
+class Cat(Animal):
+    def meow(self):
+        print("Meow!")
+
+dog = Dog()
+
+
+
+
+
+#### Diamond Problem
+
+class Root:
+    def ping(self):
+        print(f"ping Root")
+
+    def pong(self):
+        print(f"pong Root")
+
+class A(Root):
+    def ping(self):
+        print('ping() in A')
+        super().ping()
+
+    def pong(self):
+        print('pong() in A')
+        super().pong()
+
+class B(Root):
+    def ping(self):
+        print('ping() in B')
+        super().ping()
+
+    def pong(self):
+        print('pong() in B')
+
+
+class Leaf(A, B):
+    def ping(self):
+        print(f"ping() in Leaf")
+        super().ping()
+
+
+leaf = Leaf()
+leaf.ping()
+
